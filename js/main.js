@@ -16,7 +16,7 @@ function draw() {
         timing = timing - 0.5
 
         sinCurv(ctx, timing, 'rgba(255,0,0,0.4', 60, 30)
-        sinCurv(ctx, timing, 'rgba(0,255,0,0.4', 30, 40)
+        sinCurv(ctx, timing, 'rgba(0,255,0,0.4', 50, 40)
         sinCurv(ctx, timing, 'rgba(0,0,255,0.4', 45, 50)
         window.requestAnimationFrame(draw)
 
